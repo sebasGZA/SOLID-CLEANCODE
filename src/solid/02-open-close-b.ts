@@ -1,4 +1,4 @@
-import { HttpClient } from "./03-open-close";
+import { HttpClient } from "./02-open-close";
 
 export class TodoService {
   constructor(private httpClient: HttpClient) {}
